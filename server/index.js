@@ -2,12 +2,7 @@ const express = require('express');
 // const cors = require('cors');
 
 const app = express();
-
-// config middleware
-// app.use(cors());
 app.use(express.json());
-
-// khai báo csdl tạm
 
 const students = [
     {
@@ -58,7 +53,7 @@ app.get("*", (req, res) => {
 
 
 
-const PORT = 8080;
+const PORT = 8800;
 app.listen(PORT, () => {
-    console.log("Server running http://localhost:8080");
+    console.log("Server running http://localhost:8800");
 })
