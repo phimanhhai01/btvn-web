@@ -19,7 +19,7 @@ function ListStudent() {
         <div>
             <ul>
                 {s && s.map((item, index) => (
-                    <li>Học sinh ${item.name}, lớp {item.class}, trường {item.school} </li>
+                    <li>Học sinh {item.name}, lớp {item.class}, trường {item.school} </li>
                 ))}
             </ul>
         </div>

@@ -1,4 +1,3 @@
-import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NotFound from './components/NotFound';
 import ListStudent from './components/ListStudent';
@@ -19,3 +18,5 @@ function App() {
     </div>
   );
 }
+
+export default App;
